@@ -5,7 +5,7 @@ import Error from "./Error";
 import ReservationForm from "./ReservationForm";
 
 interface ReservationInt {
-    _id: number
+    _id: string
     name: string;
     phone: string;
     numberOfPersons: number;
