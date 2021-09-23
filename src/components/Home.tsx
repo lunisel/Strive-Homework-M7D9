@@ -22,7 +22,7 @@ interface SelectedInt{
       }[]
 }
 
-const Home = ({...routerProps}: RouteComponentProps) => {
+const Home = () => {
   const [selected, setSelected] = useState<null|SelectedInt>(null)
 
   return (
